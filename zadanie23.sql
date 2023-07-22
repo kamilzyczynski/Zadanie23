@@ -114,3 +114,5 @@ JOIN pracownik ON stanowisko.id = pracownik.stanowisko_id;
 SELECT * FROM pracownik 
 JOIN adres ON pracownik.adres_id = adres.id
 WHERE adres.kod_pocztowy = '80-680';
+
+-- ROZWIĄZANIE ZADANIA NR 23
