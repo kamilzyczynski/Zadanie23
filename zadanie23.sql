@@ -111,6 +111,10 @@ JOIN adres ON pracownik.adres_id = adres.id;
 SELECT SUM(wypłata) FROM stanowisko
 JOIN pracownik ON stanowisko.id = pracownik.stanowisko_id;
 
+-- 15. Pobiera pracowników mieszkających w lokalizacji z kodem pocztowym 90210 (albo innym, który będzie miał sens dla Twoich danych testowych)
+
 SELECT * FROM pracownik 
 JOIN adres ON pracownik.adres_id = adres.id
 WHERE adres.kod_pocztowy = '80-680';
+
+-- ROZWIĄZANIE ZADANIA NR 23
